@@ -23,3 +23,15 @@ inputs:
     description: 'Changenote of this update'
     required: false
     default: 'Upload triggered by GitHub Actions workflow.'
+  visibility:
+    required: false
+    default: '0'
+  title:
+    required: false
+    default: ${{ github.event.repository.name }
+  description:
+    required: false
+    default: ${{ github.event.head_commit.message }}
+  previewfile:
+    required: false
+    default: 'thumbnail.png'

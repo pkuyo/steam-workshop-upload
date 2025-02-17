@@ -21,6 +21,11 @@ cat << EOF > /home/steam/workshop.vdf
   "contentfolder" "${GITHUB_WORKSPACE}/${INPUT_PATH}"
   "changenote" "${INPUT_CHANGENOTE}"
   "publishedfileid" "${INPUT_ITEMID}"
+  "previewfile" "${GITHUB_WORKSPACE}/${INPUT_PATH}/${INPUT_PREVIEWFILE}"
+  "visibility" "${INPUT_VISIBILITY}"
+  "title" "${INPUT_TITLE}"
+  "description" "${INPUT_DESCRIPTION}"
+  "changenote" "${INPUT_CHANGENOTE}"
 }
 EOF
 
