@@ -22,7 +22,7 @@ inputs:
   changenote:
     description: 'Changenote of this update'
     required: false
-    default: 'Upload triggered by GitHub Actions workflow.'
+    default: ${{ github.event.head_commit.message }}
   visibility:
     required: false
     default: '0'

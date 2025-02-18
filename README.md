@@ -8,7 +8,7 @@ Takes inspiration from [workshop-upload](https://github.com/arma-actions/worksho
 
 ```yaml
 - name: steam-workshop-upload
-  uses: weilbyte/steam-workshop-upload@v1
+  uses: pkuyo/steam-workshop-upload@v1
   with: 
     appid: 294100 # Game's Steam App ID
     itemid: 0000000000 # Your mod's Steam Workshop ID
