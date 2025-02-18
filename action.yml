@@ -28,7 +28,7 @@ inputs:
     default: '0'
   title:
     required: false
-    default: ${{ github.event.repository.name }
+    default: ${{ github.event.repository.name }}
   description:
     required: false
     default: ${{ github.event.head_commit.message }}
